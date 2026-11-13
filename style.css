@@ -1,0 +1,175 @@
+
+/* GENERAL STYLING */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* HEADER SECTION */
+
+header {
+    background-color: #172b4d;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 17px;
+    color: #dbe4f0;
+}
+
+.contact p {
+    margin: 5px;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    border-bottom: 1px solid white;
+}
+
+.social-links a:hover {
+    color: #f4c542;
+}
+
+
+/* COMMON SECTION STYLING */
+
+section {
+    background-color: white;
+    max-width: 950px;
+    margin: 25px auto;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #172b4d;
+    border-bottom: 2px solid #d6a84f;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+
+/* EDUCATION TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #172b4d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f4f7;
+}
+
+
+/* SKILLS AND ACHIEVEMENTS */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* PROJECT CARDS */
+
+.project-card {
+    background-color: #f4f6f9;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-left: 4px solid #d6a84f;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    color: #172b4d;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #172b4d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 7px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+}
